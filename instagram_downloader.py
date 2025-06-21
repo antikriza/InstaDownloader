@@ -26,10 +26,10 @@ def get_instagram_story_links(username):
     logger.info(f"Starting to fetch stories for username: {username}")
     
     options = webdriver.ChromeOptions()
-    options.add_argument('--headless')
-    options.add_argument('--no-sandbox')
+    # options.add_argument('--headless')
+    # options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
-    options.add_argument('--disable-gpu')
+    #options.add_argument('--disable-gpu')
     options.add_argument('--window-size=1920,1080')
     
     driver = None
